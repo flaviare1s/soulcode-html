@@ -305,4 +305,16 @@ ol > li {
   }
 }
 
+@media (max-width: 440px) {
+  
+  .radio {
+    display: flex;
+    margin-left: .3rem;
+  }
+  
+  .radio-label {
+    margin-left: .3rem;
+  }
+}
+
 
