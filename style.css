@@ -195,6 +195,8 @@ form {
 
 .radio {
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 1rem;
 }
 
@@ -213,6 +215,7 @@ form {
 button {
   background-color: var(--color3);
   color: var(--color5);
+  font-size: 1.5rem;
   padding: .75rem;
   border: none;
   border-radius: 30px;
