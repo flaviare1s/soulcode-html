@@ -34,9 +34,9 @@
     </nav>
   </header>
 
-  <main>
-    <h2>Preencha o formulário e deixe sua sugestão!</h2>
+  <main id="form">
     <form>
+      <h2>Preencha o formulário e deixe sua sugestão!</h2>
       <div class="form">
         <label for="nome">Nome: </label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
@@ -51,12 +51,16 @@
         <input type="tel" id="tel" name="tel" placeholder="(00) 00000-0000" required>
       </div>
 
-      <div class="strong">
+      <div class="strong radios">
         <p class="radio-p">Tem intolerância à lactose?</p>
-        <input type="radio" name="lactose" value="sim">
-        <label for="lactose" class="radio-label">Sim</label>
-        <input type="radio" name="lactose" value="nao">
-        <label for="lactose" class="radio-label">Não</label>
+        <div class="radio">
+          <input type="radio" name="lactose" value="sim">
+          <label for="lactose" class="radio-label">Sim</label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="lactose" value="nao">
+          <label for="lactose" class="radio-label">Não</label>
+        </div>
       </div>
 
       <div class="form">

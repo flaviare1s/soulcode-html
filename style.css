@@ -157,14 +157,16 @@ form {
 input[type="text"], input[type="email"], input[type="tel"], textarea {
   padding: .5rem;
   border-radius: 5px;
-  width: 100%;
+  width: 70%;
+  align-self: center;
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .form {
@@ -175,13 +177,29 @@ form {
   font-weight: bold;
 }
 
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 .margin {
   margin-bottom: 1rem;
   margin-top: .5rem;
 }
 
+.radios {
+  display: flex;
+}
+
+.radio {
+  display: flex;
+  margin-left: 1rem;
+}
+
 .radio-label {
-  margin-right: 1rem;
+  margin-left: .5rem;
 }
 
 .strong {
@@ -201,8 +219,8 @@ button {
   width: 100px;
   font-weight: bold;
   cursor: pointer;
+  width: 70%;
   align-self: center;
-  width: 100%;
 }
 
 button:hover {
@@ -271,6 +289,18 @@ ol > li {
   }
 
   article {
+    width: 100%;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  input[type="text"], input[type="email"], input[type="tel"], textarea {
+    width: 100%;
+  }
+
+  button {
     width: 100%;
   }
 }
