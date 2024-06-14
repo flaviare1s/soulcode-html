@@ -23,12 +23,14 @@ ul {
 
 a {
   text-decoration: none;
+  display: block;
   color: var(--color5);
   font-family: var(--font2);
+  font-weight: bold;
 }
 
 a:hover {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 body {
@@ -36,22 +38,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin: 0 auto;
 }
 
 header {
   width: 100%;
   background-color: #FCAE4A;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 100px;
   align-items: center;
   padding: 1rem;
-}
-
-@media (max-width: 768px) {
-  header {
-    flex-direction: column;
-  }
 }
 
 .menu {
@@ -75,3 +72,83 @@ header {
 h1 {
   font-size: 1.5rem;
 }
+
+h2 {
+  font-family: var(--font2);
+  color: var(--color2);
+  text-align: center;
+  padding: 1rem;
+}
+
+h3 {
+  color: var(--color3);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+article {
+  color: var(--color3);
+  font-family: var(--font1);
+  width: 30%;
+  text-align: center;
+}
+
+.beneficios {
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+
+img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background-color: #549EF2;
+  padding: 1rem;
+  text-align: center;
+  font-family: var(--font2);
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main {
+    width: 90%;
+  }
+
+  figure {
+    width: 90%;
+  }
+
+  .beneficios {
+    flex-direction: column;
+  }
+
+  article {
+    width: 100%;
+  }
+}
+
+
