@@ -23,7 +23,8 @@ ul {
 
 a {
   text-decoration: none;
-  display: block;
+  color: var(--color5);
+  display: inline-block;
 }
 
 a:hover {
