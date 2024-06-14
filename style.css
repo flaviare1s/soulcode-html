@@ -274,6 +274,10 @@ ol > li {
   margin-top: .5rem;
 }
 
+.conteudo {
+  width: 60%;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -306,6 +310,10 @@ ol > li {
 
   button {
     width: 100%;
+  }
+
+  .conteudo {
+    width: 90%;
   }
 }
 
