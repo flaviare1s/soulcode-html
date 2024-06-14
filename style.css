@@ -197,6 +197,26 @@ th {
   background-color: #fcaf4a76;
 }
 
+dl {
+  font-family: var(--font2);
+  color: var(--color5);
+}
+
+dt {
+  color: var(--color4);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1rem;
+}
+
+ol {
+  list-style-position: inside;
+  text-indent: 1rem;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
