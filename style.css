@@ -154,22 +154,34 @@ form {
   color: var(--color5);
 }
 
-input, textarea {
+input[type="text"], input[type="email"], input[type="tel"], textarea {
   padding: .5rem;
   border-radius: 5px;
+  width: 100%;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 90%;
 }
 
 .form {
   display: flex;
   flex-direction: column;
-  margin-bottom: .5rem;
+  margin-bottom: 1rem;
   margin-top: .5rem;
   font-weight: bold;
+}
+
+.margin {
+  margin-bottom: 1rem;
+  margin-top: .5rem;
+}
+
+.radio-label {
+  margin-right: 1rem;
 }
 
 .strong {
@@ -189,11 +201,13 @@ button {
   width: 100px;
   font-weight: bold;
   cursor: pointer;
-  align-self: flex-end;
+  align-self: center;
+  width: 100%;
 }
 
 button:hover {
   background-color: #39aeae;
+  border: 1px solid #4D4F62;
 }
 
 table {
