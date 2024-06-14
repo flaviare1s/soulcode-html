@@ -24,9 +24,6 @@ ul {
 a {
   text-decoration: none;
   display: block;
-  color: var(--color5);
-  font-family: var(--font2);
-  font-weight: bold;
 }
 
 a:hover {
@@ -49,6 +46,12 @@ header {
   gap: 100px;
   align-items: center;
   padding: 1rem;
+}
+
+nav > ul > li > a {
+  color: var(--color5);
+  font-family: var(--font2);
+  font-weight: bold;
 }
 
 .menu {
@@ -91,6 +94,11 @@ article {
   font-family: var(--font1);
   width: 30%;
   text-align: center;
+}
+
+article a {
+  color: var(--color3);
+  font-weight: bold
 }
 
 .beneficios {
