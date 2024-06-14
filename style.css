@@ -278,6 +278,12 @@ ol > li {
   width: 60%;
 }
 
+.tabelas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -314,6 +320,10 @@ ol > li {
 
   .conteudo {
     width: 90%;
+  }
+
+  .tabelas {
+    grid-template-columns: 1fr;
   }
 }
 
