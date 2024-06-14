@@ -315,6 +315,10 @@ ol > li {
   .radio-label {
     margin-left: .3rem;
   }
+
+  form {
+    width: 100%;
+  }
 }
 
 
