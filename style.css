@@ -36,6 +36,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  font-family: var(--font2);
 }
 
 header {
@@ -57,7 +58,7 @@ nav > ul > li > a {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  gap: .5rem;
+  gap: 1rem;
 }
 
 .logo {
