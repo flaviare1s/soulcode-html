@@ -57,7 +57,7 @@ nav > ul > li > a {
 .menu {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: .5rem;
 }
 
 .logo {
@@ -104,7 +104,7 @@ article a {
 
 .beneficios {
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
 }
 
 main {
@@ -114,7 +114,7 @@ main {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
 }
 
 figure {
@@ -135,6 +135,49 @@ footer {
   font-family: var(--font2);
   font-weight: bold;
   margin-top: 1rem;
+}
+
+form {
+  font-family: var(--font2);
+  color: var(--color5);
+}
+
+input, textarea {
+  padding: .5rem;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  font-weight: bold;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+button {
+  background-color: var(--color3);
+  color: var(--color5);
+  padding: .75rem;
+  border: none;
+  border-radius: 30px;
+  width: 100px;
+  font-weight: bold;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+button:hover {
+  background-color: #39aeae;
 }
 
 @media (max-width: 768px) {
